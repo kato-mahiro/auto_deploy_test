@@ -11,5 +11,5 @@ define( 'SECRET_KEY', 'secretkey' );
  */
 $commands = array(
   'develop' => '',//developブランチ
-  'master'  => 'echo "Pong from master branch."' // masterブランチ
+  'master'  => 'git pull origin master' // masterブランチ
 );
